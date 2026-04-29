@@ -1,4 +1,5 @@
 import { ArrowUp, Github, Instagram, Linkedin, Mail } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -12,6 +13,15 @@ function Footer() {
             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted transition hover:border-accent/50 hover:text-accent"
           >
             <Mail size={16} />
+          </a>
+          <a
+            href="https://wa.me/919669848740"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted transition hover:border-emerald-400/60 hover:text-emerald-300"
+          >
+            <FaWhatsapp size={16} />
           </a>
           <a
             href="https://github.com/harishkgit9640/"

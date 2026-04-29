@@ -1,6 +1,9 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Globe, Linkedin, Mail, Phone } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+
+const whatsappHref = 'https://wa.me/919669848740';
 
 const contactItems = [
   {
@@ -14,6 +17,12 @@ const contactItems = [
     value: '+91 9669848740',
     href: 'tel:+919669848740',
     icon: Phone,
+  },
+  {
+    label: 'WhatsApp',
+    value: '+91 9669848740',
+    href: whatsappHref,
+    icon: FaWhatsapp,
   },
   {
     label: 'Website',
@@ -93,6 +102,15 @@ function Contact({ onActive }) {
             ))}
 
             <div className="mt-4 flex flex-wrap gap-3">
+              <a
+                href={whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-5 py-3 text-sm font-medium text-emerald-300 transition hover:-translate-y-0.5 hover:border-emerald-400/60"
+              >
+                <FaWhatsapp size={16} />
+                WhatsApp
+              </a>
               <a
                 href="https://www.linkedin.com/"
                 target="_blank"
