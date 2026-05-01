@@ -42,7 +42,7 @@ body {
   min-width: 320px;
   background: rgb(var(--color-bg));
   color: rgb(var(--color-text));
-  font-family: 'Instrument Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -63,7 +63,7 @@ a {
 }
 
 .section-kicker {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Inter', sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0.35em;
   text-transform: uppercase;
@@ -73,7 +73,7 @@ a {
 .section-title {
   margin-top: 1rem;
   max-width: 18ch;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(2.2rem, 4vw, 4rem);
   line-height: 0.98;
   color: rgb(var(--color-text));

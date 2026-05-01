@@ -14,9 +14,9 @@ export default {
         secondary: 'rgb(var(--color-secondary) / <alpha-value>)',
       },
       fontFamily: {
-        heading: ['Syne', 'sans-serif'],
-        body: ['Instrument Sans', 'sans-serif'],
-        mono: ['DM Mono', 'monospace'],
+        heading: ['Inter', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
+        mono: ['Inter', 'sans-serif'],
       },
       boxShadow: {
         glow: '0 0 0 1px rgb(var(--color-accent) / 0.45), 0 18px 42px rgb(var(--color-accent) / 0.18)',

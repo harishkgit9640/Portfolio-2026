@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 const stats = [
   { label: 'Years Experience', value: 4, suffix: '+' },
-  { label: 'APIs Built', value: 15, suffix: '+' },
-  { label: 'Clients Served', value: 50, suffix: '+' },
+  { label: 'APIs Built', value: 50, suffix: '+' },
+  { label: 'Clients Served', value: 5, suffix: '+' },
   { label: 'SaaS Product Launched', value: 1, suffix: '' },
 ];
 
@@ -115,7 +115,7 @@ function About({ onActive }) {
         </div>
       </div>
     </section>
-  );
+  );s
 }
 
 export default About;

@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'FeeAutomate',
     description:
-      'A SaaS product for automated fee collection and management, built and deployed end-to-end from UI design to cloud infrastructure.',
+      'A SaaS product for automated fee collection and management, built and deployed end-to-end from UI design to cloud infrastructure. You bill the tenant for FeeAutomate. Each tenant still collects from members in their own gateway account. Plans, subscriptions, invoices, reminders, imports, defaulter tracking, and QR signup are already productized.',
     tags: ['SaaS', 'React', 'Node.js', 'AWS', 'CI/CD'],
     href: 'https://feeautomate.com',
     github: null,
@@ -14,43 +14,31 @@ const projects = [
   },
   {
     title: 'Netflix GPT',
-    description:
-      'Netflix-inspired movie recommendation app with Gemini-powered global search, Firebase auth, TMDB API integration, and Redux state management.',
+    description: 'Netflix-inspired movie recommendation app with Gemini-powered global search, Firebase auth, TMDB API integration, and Redux state management.Followed best coding practices, including custom hooks and React Memorization, to optimize performance and maintainability.',
     tags: ['React', 'Redux Toolkit', 'Firebase', 'Gemini API', 'Tailwind CSS'],
     href: null,
-    github: 'https://github.com/',
+    github: 'https://github.com/harishkgit9640/Netflix-GPT',
   },
   {
     title: 'Shop Karo',
-    description:
-      'Full-stack e-commerce platform with JWT auth, product/cart management, and a Node/Express/MongoDB backend.',
+    description: 'Developed a full-stack e-commerce application, Shop Karo, designed to deliver a seamless and secure online shopping experience. Implemented JWT token-based user authentication to ensure secure user interactions and data protection. Designed and developed backend APIs using Node.js and Express for secure and efficient data handling.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Bootstrap'],
     href: null,
-    github: 'https://github.com/',
+    github: 'https://github.com/harishkgit9640/shop-karo',
   },
   {
-    title: 'Nike Clone',
-    description:
-      'Created a responsive UI clone of the Nike website with a strong focus on pixel-perfect design, responsiveness, frontend performance, and clean layout structuring.',
-    tags: ['React', 'Tailwind CSS', 'Responsive UI', 'Performance'],
+    title: 'Blog Application',
+    description: 'Created a responsive blog application with user authentication, CRUD operations, and a MongoDB backend for seamless content management.implemented JWT token-based user authentication to ensure secure user interactions and data protection.',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Bootstrap','Admin Dashboard'],    
     href: null,
-    github: null,
+    github: 'https://github.com/harishkgit9640/blog_application',
   },
   {
-    title: 'Food Court Application',
-    description:
-      'Designed a food ordering platform with dynamic menu handling, backend-powered order processing, and a responsive interface built for a smooth user experience.',
-    tags: ['React', 'Node.js', 'Express', 'Dynamic Menu', 'Responsive Design'],
+    title: 'Project Management (NIC)  ',
+    description:'This is A full-stack web application built with React, Node.js, and MySQL, featuring user authentication, project management, and admin dashboard for efficient management. It is collage project of National Institute of Technology.',
+    tags: ['React', 'Node.js', 'Express', 'MySQL', 'JWT', 'Bootstrap','Role-based', 'Admin Dashboard'],    
     href: null,
-    github: null,
-  },
-  {
-    title: 'College Management System',
-    description:
-      'Built a system to manage student data, courses, and academic records with CRUD operations, database integration, and an admin dashboard focused on usability.',
-    tags: ['CRUD', 'Dashboard', 'Database', 'Admin Panel'],
-    href: null,
-    github: null,
+    github: 'https://github.com/harishkgit9640/react_with_mysql',
   },
 ];
 

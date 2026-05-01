@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Github, Globe, Linkedin, Mail, Phone } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail, } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const whatsappHref = 'https://wa.me/919669848740';
@@ -13,22 +13,22 @@ const contactItems = [
     icon: Mail,
   },
   {
-    label: 'Phone',
-    value: '+91 9669848740',
-    href: 'tel:+919669848740',
-    icon: Phone,
+    label: 'LinkedIn',
+    value: 'harish-kumar-9640',
+    href: 'https://www.linkedin.com/in/harish-kumar-9640/',
+    icon: Linkedin,
   },
   {
-    label: 'WhatsApp',
-    value: '+91 9669848740',
-    href: whatsappHref,
-    icon: FaWhatsapp,
+    label: 'Instagram',
+    value: 'harish_k_insta',
+    href: 'https://www.instagram.com/harish_k_insta/',
+    icon: Instagram,
   },
   {
-    label: 'Website',
-    value: 'harishsahu.com',
-    href: 'https://harishsahu.com',
-    icon: Globe,
+    label: 'Github',
+    value: 'harishkgit9640',
+    href: 'https://github.com/harishkgit9640/',
+    icon: Github,
   },
 ];
 
@@ -100,36 +100,6 @@ function Contact({ onActive }) {
                 </div>
               </motion.a>
             ))}
-
-            <div className="mt-4 flex flex-wrap gap-3">
-              <a
-                href={whatsappHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-5 py-3 text-sm font-medium text-emerald-300 transition hover:-translate-y-0.5 hover:border-emerald-400/60"
-              >
-                <FaWhatsapp size={16} />
-                WhatsApp
-              </a>
-              <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/70 px-5 py-3 text-sm font-medium text-text transition hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent"
-              >
-                <Linkedin size={16} />
-                LinkedIn
-              </a>
-              <a
-                href="https://github.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/70 px-5 py-3 text-sm font-medium text-text transition hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent"
-              >
-                <Github size={16} />
-                GitHub
-              </a>
-            </div>
           </div>
         </div>
       </div>

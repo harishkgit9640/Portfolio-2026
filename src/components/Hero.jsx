@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, Download, Github, Linkedin, Mail, Instagram } from 'lucide-react';
 import { FaAws, FaDatabase, FaLinux, FaNodeJs, FaPhp, FaReact, FaWhatsapp } from 'react-icons/fa';
 
 const headshotSrc = '/harish_headshot.jpg';
@@ -82,9 +82,10 @@ function Hero() {
           <div className="mt-10 flex items-center gap-3">
             {[
               { href: 'mailto:harishkemail9640@gmail.com', label: 'Email', icon: Mail },
+              { href: 'https://github.com/harishkgit9640/', label: 'GitHub', icon: Github },
               { href: whatsappHref, label: 'WhatsApp', icon: FaWhatsapp },
-              { href: 'https://github.com/', label: 'GitHub', icon: Github },
-              { href: 'https://www.linkedin.com/', label: 'LinkedIn', icon: Linkedin },
+              { href: 'https://www.linkedin.com/in/harish-kumar-9640/', label: 'LinkedIn', icon: Linkedin },
+              { href: 'https://www.instagram.com/harish_k_insta/', label: 'Instagram', icon: Instagram },
             ].map(({ href, label, icon: Icon }) => (
               <a
                 key={label}

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="px-4 pb-8 pt-6 sm:px-6 lg:px-10">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 rounded-[1.75rem] border border-border bg-surface/75 px-6 py-5 shadow-panel sm:flex-row sm:items-center sm:justify-between">
-        <p className="text-sm text-muted">Designed with ❤️ by Harish Kumar © 2025</p>
+        <p className="text-sm text-muted">Designed with ❤️ by Harish Kumar © {new Date().getFullYear()}</p>
         <div className="flex items-center gap-3">
           <a
             href="mailto:harishkemail9640@gmail.com"
