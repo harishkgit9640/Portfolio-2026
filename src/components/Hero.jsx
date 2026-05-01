@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
-import { FaAws, FaLinux, FaNodeJs, FaReact, FaWhatsapp } from 'react-icons/fa';
+import { FaAws, FaDatabase, FaLinux, FaNodeJs, FaPhp, FaReact, FaWhatsapp } from 'react-icons/fa';
 
 const headshotSrc = '/harish_headshot.jpg';
 const whatsappHref = 'https://wa.me/919669848740';
@@ -72,7 +72,7 @@ function Hero() {
               View Projects <ArrowRight size={18} />
             </a>
             <a
-              href="/Harish-Kumar-Resume.txt"
+              href="/Resume.pdf"
               download
               className="inline-flex items-center justify-center gap-2 rounded-full border border-border bg-surface/70 px-6 py-3 font-medium text-text transition hover:-translate-y-0.5 hover:border-accent/60 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/70"
             >
@@ -145,19 +145,19 @@ function Hero() {
                 <p className="font-mono text-xs uppercase tracking-[0.25em] text-accent">
                   Current build
                 </p>
-                <p className="mt-3 max-w-sm text-base leading-7 text-text/85">
-                  Currently working on production full stack systems at LEDFlex Group, with prior
-                  experience scaling ConVoxCCS across UI, APIs, monitoring, integrations, and
-                  cloud operations.
+                <p className="mt-3 max-w-sm text-base leading-7 text-muted">
+                  Leading website modernization at LEDFlex Group through code optimization, SEO,
+                  performance work, Figma-to-build execution, and CI/CD delivery across AWS and
+                  DigitalOcean.
                 </p>
               </div>
               <div className="grid grid-cols-3 gap-3">
                 {[
                   { label: 'React', icon: FaReact },
                   { label: 'Node.js', icon: FaNodeJs },
-                  { label: 'PHP', icon: null },
+                  { label: 'PHP', icon: FaPhp },
                   { label: 'AWS', icon: FaAws },
-                  { label: 'MySQL', icon: null },
+                  { label: 'MySQL', icon: FaDatabase },
                   { label: 'Linux', icon: FaLinux },
                 ].map(({ label, icon: Icon }, index) => (
                   <motion.div

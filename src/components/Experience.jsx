@@ -5,13 +5,22 @@ const experiences = [
   {
     company: 'LEDFlex Group',
     role: 'Full Stack Developer',
-    duration: 'Oct 2025 - Present',
+    duration: 'May 2025 - Present',
     location: 'Hyderabad, Telangana, India',
     mode: 'On-site',
     summary:
-      'Currently contributing as a Full Stack Developer in an on-site role, building and maintaining production-grade web experiences and application workflows.',
-    achievements: [],
-    stack: 'React, JavaScript, Tailwind CSS, Node.js, APIs, Full Stack Development',
+      'Driving frontend modernization, SEO, performance, and deployment workflows for LEDFlex Group with a strong focus on maintainability and production readiness.',
+    achievements: [
+      'Rewrote existing code with modern best practices and optimized the overall implementation logic',
+      'Improved website speed and performance by 30%',
+      'Built a config-based centralized filter system for better scalability and maintainability',
+      'Developed a brand new website from the ground up',
+      'Implemented dynamic meta descriptions for each product',
+      'Handled end-to-end SEO improvements, increasing search ranking by 40-45%',
+      'Translated Figma designs into pixel-accurate production UI',
+      'Managed the Bitbucket codebase and connected CI/CD pipelines with AWS servers and DigitalOcean CDN storage',
+    ],
+    stack: 'HTML, CSS, jQuery, AJAX, Tailwind CSS, AOS Animation, GSAP, Git, Bitbucket, AWS, DigitalOcean',
     current: true,
   },
   {

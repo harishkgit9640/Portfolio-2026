@@ -5,7 +5,7 @@ const skillGroups = [
   {
     label: 'Frontend',
     tone: 'text-accent',
-    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux Toolkit', 'Tailwind CSS', 'Bootstrap', 'React Router', 'jQuery', 'AJAX'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Bootstrap', 'jQuery', 'AJAX'],
   },
   {
     label: 'Backend',
@@ -15,7 +15,7 @@ const skillGroups = [
   {
     label: 'Databases',
     tone: 'text-emerald-400',
-    skills: ['MySQL', 'MongoDB'],
+    skills: ['MySQL', 'MongoDB','PostgreSQL', 'Firebase Realtime Database', 'Redis'],
   },
   {
     label: 'DevOps & Cloud',
